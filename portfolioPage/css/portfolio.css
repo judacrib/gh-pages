@@ -28,8 +28,8 @@ hr {
     margin: 6% 0;
 }
 
-.prof {
-    font: 14pt Georgia;
+#intro>span.prof {
+    font: 15pt Georgia;
 }
 
 form>div:nth-child(3)>div>input {
@@ -56,4 +56,8 @@ h2,
 
 .jumbotron {
     background: radial-gradient(circle at center, #265a88 10%, #004, #000 100%);
+}
+
+.glyphicon-fire {
+    padding: 0, 1em;
 }
