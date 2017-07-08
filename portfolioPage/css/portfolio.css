@@ -2,7 +2,7 @@ body {
     padding-top: 65px;
     background-image: url(../images/utsg.JPG);
     color: #FFF;
-    font: 18pt Georgia;
+    font: 16pt Georgia;
     background-size: 100% 100%;
 }
 
@@ -25,7 +25,6 @@ hr {
 }
 
 #intro {
-    font: 16pt Georgia;
     margin: 6% 0;
 }
 
@@ -37,13 +36,18 @@ form>div:nth-child(3)>div>input {
     height: 10em;
 }
 
+.navbar-right,
+h2,
+#intro {
+    font: 20pt Lobster;
+}
+
 #title,
 .navbar-right>li>a.navs:active,
 .navbar-right>li>a.navs:hover,
 .navbar-right>li>a.navs:focus {
     color: #FFF;
     background: linear-gradient(to bottom, #119 0, #265a88 100%);
-    font-family: Georgia;
 }
 
 .navbar>div {
