@@ -20,8 +20,9 @@ hr {
     border: #05F groove 3px;
 }
 
-.col-center {
-    margin: 0 auto;
+#intro>div.col-center {
+    margin-top: 2em;
+    margin-bottom: -2em;
 }
 
 #intro {
