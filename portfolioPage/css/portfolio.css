@@ -1,0 +1,55 @@
+body {
+    padding-top: 65px;
+    background-image: url(../images/utsg.JPG);
+    color: #FFF;
+    font: 18pt Georgia;
+    background-size: 100% 100%;
+}
+
+#title {
+    font: 20pt Georgia;
+}
+
+#mainphoto {
+    border: solid 3px #0c387f;
+    border-radius: 50%;
+    margin: 4%;
+}
+
+hr {
+    border: #05F groove 3px;
+}
+
+.col-center {
+    margin: 0 auto;
+}
+
+#intro {
+    font: 16pt Georgia;
+    margin: 6% 0;
+}
+
+.prof {
+    font: 14pt Georgia;
+}
+
+form>div:nth-child(3)>div>input {
+    height: 10em;
+}
+
+#title,
+.navbar-right>li>a.navs:active,
+.navbar-right>li>a.navs:hover,
+.navbar-right>li>a.navs:focus {
+    color: #FFF;
+    background: linear-gradient(to bottom, #119 0, #265a88 100%);
+    font-family: Georgia;
+}
+
+.navbar>div {
+    background-color: #000;
+}
+
+.jumbotron {
+    background: radial-gradient(circle at center, #265a88 10%, #004, #000 100%);
+}
