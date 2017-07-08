@@ -20,11 +20,19 @@ hr {
     margin: 6% 0;
 }
 
-#portfol,
-#contact,
-#title {
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
     background-color: #05F;
+    border-color: #285e8e;
     color: #000;
+}
+
+.btn-primary:active:focus {
+    background-color: #000;
+    border-color: #285e8e;
+    color: #FFF;
 }
 
 form>div:nth-child(3)>div>input {
