@@ -1,4 +1,4 @@
 # Master README file
-Sites:
-https://judacrib.github.io/gh-pages/portfolioPage
-https://judacrib.github.io/gh-pages/randomQuote
+## Sites:
+[Portfolio](https://judacrib.github.io/gh-pages/portfolioPage)   
+[Random Quote](https://judacrib.github.io/gh-pages/randomQuote)
