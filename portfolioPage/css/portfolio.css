@@ -56,7 +56,7 @@ h2,
 }
 
 .jumbotron {
-    background: radial-gradient(circle at center, #265a88 10%, #004, #000 100%);
+    background: radial-gradient(circle at center, #265a88 10%, #004, #000 70%);
 }
 
 .glyphicon-fire {
