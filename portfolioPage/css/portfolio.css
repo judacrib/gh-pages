@@ -1,64 +1,70 @@
 body {
-    padding-top: 65px;
-    background-image: url(../images/utsg.JPG);
-    color: #FFF;
-    font: 16pt Georgia;
-    background-size: 100% 100%;
+  padding-top: 65px;
+  background-image: url(../images/utsg.JPG);
+  color: #FFF;
+  font: 16pt Georgia;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #title {
-    font: 20pt Georgia;
+  font: 16pt Georgia;
 }
 
 #mainphoto {
-    border: solid 3px #0c387f;
-    border-radius: 50%;
-    margin: 4%;
+  border: solid 3px #0c387f;
+  border-radius: 50%;
+  margin: 4%;
 }
 
 hr {
-    border: #05F groove 3px;
+  border: #05F groove 3px;
 }
 
 #intro>div.col-center {
-    margin-top: 2em;
-    margin-bottom: -2em;
+  margin-top: 2em;
+  margin-bottom: -2em;
 }
 
 #intro {
-    margin: 6% 0;
+  margin: 6% 0;
 }
 
-#intro>span.prof {
-    font: 15pt Georgia;
+#intro>span.prof,
+h2 {
+  font: 18pt Georgia;
 }
 
 form>div:nth-child(3)>div>input {
-    height: 10em;
+  height: 10em;
 }
 
 .navbar-right,
-h2,
 #intro {
-    font: 20pt Lobster;
+  font: 12pt Lobster;
 }
 
 #title,
 .navbar-right>li>a.navs:active,
 .navbar-right>li>a.navs:hover,
 .navbar-right>li>a.navs:focus {
-    color: #FFF;
-    background: linear-gradient(to bottom, #119 0, #265a88 100%);
+  color: #FFF;
+  background: linear-gradient(to bottom, #119 0, #265a88 100%);
 }
 
 .navbar>div {
-    background-color: #000;
+  background-color: #000;
 }
 
 .jumbotron {
-    background: radial-gradient(circle at center, #265a88 10%, #004, #000 70%);
+  width: 70%;
+  left: 50%;
+  transform: translate(20%, 0%);
+  background: radial-gradient(circle at center, #265a88 10%, #004, #000 70%);
 }
 
 .glyphicon-fire {
-    padding: 0, 1em;
+  padding: 0, 1em;
 }
