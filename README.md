@@ -4,4 +4,4 @@
   [css](portfolioPage/css/)
 
 [Random Quote](https://judacribz.github.io/gh-pages/randomQuote)
-<embed>http://example.com/the.pdf</embed>
+<embed tpye='application/pdf'>http://example.com/the.pdf</embed>
