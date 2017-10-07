@@ -1,4 +1,4 @@
 _config.yml
-*.doc
-*.docx
+*doc
+*docx
 README.markdown
